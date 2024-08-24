@@ -1,0 +1,17 @@
+assets:
+- name: obj/F_TT010.mdlx
+  multi:
+  - name: obj/F_TT010_SORA.mdlx
+  - name: obj/F_TT010_NM.mdlx
+  - name: obj/F_TT010_WI.mdlx
+  - name: obj/F_TT010_AL.mdlx
+  - name: obj/F_TT010_HE.mdlx
+  - name: obj/F_TT010_CA.mdlx
+  - name: obj/F_TT010_TR.mdlx
+  method: binarc
+  source:
+  - method: copy
+    name: f_tt
+    source:
+    - name: f_tt_0.coctmodel
+    type: ModelCollision
